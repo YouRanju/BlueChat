@@ -92,6 +92,7 @@
             this.serverbtn.Text = "Create Server";
             this.serverbtn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.serverbtn.UseVisualStyleBackColor = false;
+            this.serverbtn.Click += new System.EventHandler(this.Serverbtn_Click);
             // 
             // joinbtn
             // 

@@ -5,25 +5,19 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Net;
+using System.Net.Sockets;
+using System.Threading;
 
 namespace BlueChat
 {
-    public partial class Form1 : Form
+    public partial class Server : Form
     {
-        public Form1()
+        public Server()
         {
             InitializeComponent();
-        }
-
-        private void Exitbtn_MouseClick(object sender, MouseEventArgs e)
-        {
-            Application.Exit();
-        }
-
-        private void Serverbtn_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
